@@ -121,7 +121,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: missing-piece # blog_name will be displayed in your blog page
-blog_description: Short articles giving pedagogical tutorials in quantum computation, quantum information, math, computer science, and related fields. Tries to fill in the missing piece of commonly explained topics.
+blog_description: Short articles giving pedagogical tutorials in quantum computation, quantum information, math, computer science, and related fields. Attempts to remove historical jargon and provide alternate explanations of topics to provide the <em>missing piece</em> needed for them to make sense.
 permalink: /blog/:year/:title/
 
 # Pagination
