@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-a-post-with-math",
+        },{id: "post-entry-wise-vector-and-matrix-derivatives",
         
-          title: "a post with math",
+          title: "Entry-wise vector and matrix derivatives",
         
-        description: "an example of a blog post with some math",
+        description: "Understanding derivatives with respect to vectors and matrices via entry-wise differentiation.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/math/";
+            window.location.href = "/blog/2021/entrywise-matrix-derivative/";
           
         },
       },{
