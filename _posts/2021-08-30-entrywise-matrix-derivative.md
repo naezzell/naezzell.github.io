@@ -2,7 +2,7 @@
 layout: post
 title: Entry-wise vector and matrix derivatives
 date: 2021-08-30
-description: Understanding derivatives with respect to vectors and matrices via entry-wise differentiation.
+description: Uncovering ambiguous notation involving vector and matrix derivatives
 tags: abuse-of-notation operator-overloading calculus linear-algebra
 categories: math-notes
 related_posts: false
