@@ -6,6 +6,7 @@ description: Understanding derivatives with respect to vectors and matrices via 
 tags: abuse-of-notation operator-overloading calculus linear-algebra
 categories: math-notes
 related_posts: false
+giscus_comments: true
 ---
 
 During my time at USC, I took a machine learning course in Fall 2021. In the first homework assignment, we were given 
