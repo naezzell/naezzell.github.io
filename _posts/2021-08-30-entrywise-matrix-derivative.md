@@ -13,7 +13,7 @@ During my time at USC, I took a machine learning course in Fall 2021. In the fir
 \begin{equation}
 f(\boldsymbol{x}) = \boldsymbol{x}^T A \boldsymbol{x} + \boldsymbol{b}^T \boldsymbol{x}
 \end{equation}
-for $\boldsymbol{x} \in \mathbb{R}^n$, $\boldsymbol{x}^T$ is the tranpose of this vector, and hence $f(\boldsymbol{x}) : \mathbb{R}^n \to \mathbb{R}$ is a vector-valued scalar function.
+for $\boldsymbol{x} \in \mathbb{R}^n$, $\boldsymbol{x}^T$ is the tranpose of this vector, and hence $f(\boldsymbol{x}) : \mathbb{R}^n \to \mathbb{R}$ is a scalar function with vector inputs.
 
 We were then asked to compute
 \begin{equation}
