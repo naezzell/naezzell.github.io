@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2021/entrywise-matrix-derivative/";
           
         },
+      },{id: "post-what-is-a-matrix-exponential-operator-functions",
+        
+          title: "What is a matrix exponential? / Operator functions",
+        
+        description: "A brief introduction to operator functions as used in quantum theory or",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/operator-functions/";
+          
+        },
       },{id: "post-interaction-picture",
         
           title: "Interaction picture",
