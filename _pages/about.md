@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Quantum information theoreist based in Los Angeles, CA
+subtitle: Quantum information theorist based in Los Angeles, CA
 
 profile:
   align: right
