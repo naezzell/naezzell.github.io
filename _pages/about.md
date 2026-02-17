@@ -6,9 +6,9 @@ subtitle: Quantum information theoreist based in Los Angeles, CA
 
 profile:
   align: right
-  image: matcha_me.jpg
+  image: me_again.jpg
   image_circular: false # crops the image to make it circular
-  more_info: <p>Snow Matcha @ Lynx Coffee</p><p>December 2025</p>
+  more_info: Me and Junie Junebug, Sept. 2024
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,5 +26,7 @@ latest_posts:
 
 Welcome to my website.
 
-Here, you will find a collection of professional information about me, i.e., links to my Google Scholar, my CV, a professional bio, and so on as well as
-a few personal things like my favorite matcha right now (see picture caption to the right). 
+Here, you will find a mixture of
+- strict professional information (e.g., [[publications](/publications)] and [[my cv](/cv)])
+- a [[blog](/blog)]  where I share pedagogic tutorials in math relevant to quantum theory and general thoughts on my research journey
+- and thoughts on my ongoing journey to perfect my coffee and matcha recipes.
