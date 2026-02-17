@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2021/entrywise-matrix-derivative/";
           
         },
+      },{id: "post-interaction-picture",
+        
+          title: "Interaction picture",
+        
+        description: "A brief description of the interaction picture in quantum mechanics and some references to papers that use it in the quantum computing literature",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/interaction-picture/";
+          
+        },
       },{
         id: 'social-email',
         title: 'email',
