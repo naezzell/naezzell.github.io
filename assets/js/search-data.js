@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "Entry-wise vector and matrix derivatives",
         
-        description: "Understanding derivatives with respect to vectors and matrices via entry-wise differentiation.",
+        description: "Uncovering ambiguous notation involving vector and matrix derivatives",
         section: "Posts",
         handler: () => {
           
