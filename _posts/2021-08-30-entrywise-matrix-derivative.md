@@ -4,8 +4,8 @@ title: Entry-wise vector and matrix derivatives
 date: 2021-08-30
 description: Uncovering ambiguous notation involving vector and matrix derivatives
 tags: abuse-of-notation operator-overloading calculus linear-algebra
-categories: math-notes
-related_posts: false
+categories: notation math 
+related_posts: true
 giscus_comments: true
 ---
 

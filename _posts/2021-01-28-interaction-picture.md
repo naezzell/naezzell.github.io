@@ -4,8 +4,8 @@ title: Interaction picture
 date: 2021-01-28
 description: A brief description of the interaction picture in quantum mechanics and some references to papers that use it in the quantum computing literature
 tags: basic-quantum quantum-computation
-categories: quantum
-related_posts: false
+categories: quantum math
+related_posts: true
 giscus_comments: true
 ---
 
