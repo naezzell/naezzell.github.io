@@ -113,7 +113,7 @@ f(M_{10}) & f(M_{11})
 \end{pmatrix},
 $$
 
-for $f$ your favorite scalar function.  Both of these operations produce another matrix, but they have nothing obvious to do with the eigenvalues of $M$, so it is **not** a spectral function.
+for $f$ your favorite scalar function.  Both of these operations produce another matrix, but they have nothing obvious to do with the eigenvalues of $M$, so they are generally **not** a spectral functions.
 
 ---
 
@@ -187,9 +187,9 @@ $$
 \frac{d}{dt} \ket{\psi(t)} = \left(\frac{d}{dt} \psi_0(t), \frac{d}{dt} \psi_1(t), \ldots, \frac{d}{dt} \psi_{d-1}(t)\right)^T. 
 $$
 
-which is actually an entry-wise derivative, as we discuss in a related <a href="/blog/2021/entrywise-matrix-derivative/" target="_blank">blog post</a>. This naively clashes with our spectral definition of the derivative which makes things awkward. Yet, there is a saving grace here, and things can be used self-consistently without care. This is both the power and the great confusion hiding in overloaded notation/ abuses of notation.
+which is actually an entrywise function as we encountered above. Yet, since a vector can be viewed as a diagonal matrix whose entries are its eigenvalues, then it just as well can be viewed as a spectral function in this case, making the two notions self-consistent! This hidden feature is both the power of abuse of notation and partially why overloading notation can be so confusing :P.
 
-The trick in this case is that a vector is really just a diagonal matrix in disguise, and a diagonal matrix is just a matrix of its own eigenvalues. In that sense, a spectral derivative acting on a vector *is* just the entry-wise derivative. Ahh, how convenient and confusing :). 
+As a word of caution, a third type of derivative with similar notation also is used as discussed <a href="/blog/2021/entrywise-matrix-derivative/" target="_blank">here</a>, so stay vigilent! Hopefully, knowledge of these different notions will help you not get caught up in notation. 
 
 ---
 
