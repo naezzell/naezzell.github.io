@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
+        },{id: "nav-resume-cv",
+          title: "Resume/CV",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-entry-wise-vector-and-matrix-derivatives",
+        },{id: "post-interaction-picture",
+        
+          title: "Interaction picture",
+        
+        description: "A brief description of the interaction picture in quantum mechanics and some references to papers that use it in the quantum computing literature",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/interaction-picture/";
+          
+        },
+      },{id: "post-entry-wise-vector-and-matrix-derivatives",
         
           title: "Entry-wise vector and matrix derivatives",
         
@@ -50,17 +61,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2021/operator-functions/";
-          
-        },
-      },{id: "post-interaction-picture",
-        
-          title: "Interaction picture",
-        
-        description: "A brief description of the interaction picture in quantum mechanics and some references to papers that use it in the quantum computing literature",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/interaction-picture/";
           
         },
       },{
