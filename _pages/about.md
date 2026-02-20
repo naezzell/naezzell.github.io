@@ -27,6 +27,6 @@ latest_posts:
 Welcome to my website.
 
 Here, you will find a mixture of
-- strict professional information (e.g., [[publications](/publications)] and [[my cv](/cv)])
+- strict professional information (e.g., [[publications](/publications)] and [[my resume/cv](/cv)])
 - a [[blog](/blog)]  where I share pedagogic tutorials in math relevant to quantum theory and general thoughts on my research journey
 - and thoughts on my ongoing journey to perfect my coffee and matcha recipes.

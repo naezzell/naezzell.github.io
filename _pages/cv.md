@@ -1,8 +1,11 @@
 ---
 layout: page
 permalink: /cv/
-title: CV
+title: Resume/CV
 nav: true
 nav_order: 2
 ---
-A pdf of my CV can be accessed  <a href="/assets/pdf/ezzell_nic_cv.pdf" target="_blank">here</a>.
+
+Here you will find a pdf of my...
+- <a href="/assets/pdf/ezzell_nic_resume.pdf" target="_blank">resume</a>
+- <a href="/assets/pdf/ezzell_nic_cv.pdf" target="_blank">cv</a>.
