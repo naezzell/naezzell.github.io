@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-13'
+  last_updated: '2026-02-23'
 papers:
   pSCN5GsAAAAJ:0EnyYjriUFMC:
-    citations: 1
+    citations: 2
     title: Inequalities, identities, and bounds for divided differences of the exponential function
     year: '2025'
   pSCN5GsAAAAJ:2osOgNQ5qMEC:
@@ -10,7 +10,7 @@ papers:
     title: Exploring and improving the uses of near-term quantum annealers
     year: '2019'
   pSCN5GsAAAAJ:8k81kl-MbHgC:
-    citations: 1
+    citations: 3
     title: A universal black-box quantum Monte Carlo approach to quantum phase transitions
     year: '2025'
   pSCN5GsAAAAJ:9yKSN-GCB0IC:
@@ -18,7 +18,7 @@ papers:
     title: Sidedness and Heigh-Offset Effects on the 2D Self-Assembly of the Hexagonal Tiles of Bacterial Microcompartments
     year: '2018'
   pSCN5GsAAAAJ:MXK_kJrjxJIC:
-    citations: 3
+    citations: 4
     title: 'Advanced measurement techniques in quantum Monte Carlo: The permutation matrix representation approach'
     year: '2026'
   pSCN5GsAAAAJ:Se3iqnhoufwC:
@@ -26,19 +26,19 @@ papers:
     title: Detecting quantum and classical phase transitions via unsupervised machine learning of the Fisher information metric
     year: '2024'
   pSCN5GsAAAAJ:Tyk-4Ss8FVUC:
-    citations: 139
+    citations: 137
     title: Out-of-distribution generalization for learning quantum dynamics
     year: '2023'
   pSCN5GsAAAAJ:W7OEmFMy1HYC:
-    citations: 219
+    citations: 217
     title: 'Dynamical decoupling for superconducting qubits: A performance survey'
     year: '2023'
   pSCN5GsAAAAJ:Y0pCki6q_DkC:
-    citations: 66
+    citations: 65
     title: Dynamical simulation via quantum machine learning with provable generalization
     year: '2024'
   pSCN5GsAAAAJ:YsMSGLbcyi4C:
-    citations: 37
+    citations: 35
     title: Quantum mixed state compiling
     year: '2023'
   pSCN5GsAAAAJ:d1gkVwhDpl0C:
@@ -50,7 +50,7 @@ papers:
     title: 'ClassiFIM: an unsupervised method to detect phase transitions'
     year: '2024'
   pSCN5GsAAAAJ:u5HHmVD_uO8C:
-    citations: 27
+    citations: 26
     title: Modeling the early stages of phase separation in disordered elastin-like proteins
     year: '2018'
   pSCN5GsAAAAJ:zYLM7Y9cAGgC:
