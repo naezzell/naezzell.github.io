@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-25'
+  last_updated: '2026-02-27'
 papers:
   pSCN5GsAAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -30,11 +30,11 @@ papers:
     title: Out-of-distribution generalization for learning quantum dynamics
     year: '2023'
   pSCN5GsAAAAJ:W7OEmFMy1HYC:
-    citations: 216
+    citations: 217
     title: 'Dynamical decoupling for superconducting qubits: A performance survey'
     year: '2023'
   pSCN5GsAAAAJ:Y0pCki6q_DkC:
-    citations: 65
+    citations: 66
     title: Dynamical simulation via quantum machine learning with provable generalization
     year: '2024'
   pSCN5GsAAAAJ:YsMSGLbcyi4C:
