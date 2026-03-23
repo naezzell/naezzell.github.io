@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-03-23'
 papers:
   pSCN5GsAAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -22,7 +22,7 @@ papers:
     title: 'Advanced measurement techniques in quantum Monte Carlo: The permutation matrix representation approach'
     year: '2026'
   pSCN5GsAAAAJ:Se3iqnhoufwC:
-    citations: 6
+    citations: 7
     title: Detecting quantum and classical phase transitions via unsupervised machine learning of the Fisher information metric
     year: '2024'
   pSCN5GsAAAAJ:Tyk-4Ss8FVUC:
@@ -30,7 +30,7 @@ papers:
     title: Out-of-distribution generalization for learning quantum dynamics
     year: '2023'
   pSCN5GsAAAAJ:W7OEmFMy1HYC:
-    citations: 222
+    citations: 229
     title: 'Dynamical decoupling for superconducting qubits: A performance survey'
     year: '2023'
   pSCN5GsAAAAJ:Y0pCki6q_DkC:
@@ -50,7 +50,7 @@ papers:
     title: 'ClassiFIM: an unsupervised method to detect phase transitions'
     year: '2024'
   pSCN5GsAAAAJ:u5HHmVD_uO8C:
-    citations: 26
+    citations: 27
     title: Modeling the early stages of phase separation in disordered elastin-like proteins
     year: '2018'
   pSCN5GsAAAAJ:zYLM7Y9cAGgC:
