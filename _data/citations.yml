@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-23'
+  last_updated: '2026-03-27'
 papers:
   pSCN5GsAAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -26,11 +26,11 @@ papers:
     title: Detecting quantum and classical phase transitions via unsupervised machine learning of the Fisher information metric
     year: '2024'
   pSCN5GsAAAAJ:Tyk-4Ss8FVUC:
-    citations: 137
+    citations: 138
     title: Out-of-distribution generalization for learning quantum dynamics
     year: '2023'
   pSCN5GsAAAAJ:W7OEmFMy1HYC:
-    citations: 229
+    citations: 230
     title: 'Dynamical decoupling for superconducting qubits: A performance survey'
     year: '2023'
   pSCN5GsAAAAJ:Y0pCki6q_DkC:
