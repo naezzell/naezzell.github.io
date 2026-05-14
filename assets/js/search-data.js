@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-interaction-picture",
+        },{id: "post-operator-functions-the-product-rule-on-inner-products-and-averages-in-quantum-mechanics",
+        
+          title: "Operator functions: The product rule on inner products and averages in quantum mechanics...",
+        
+        description: "A brief exposition on product rule of inner-products and averages in quantum mechanics",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/product-rule-in-quantum/";
+          
+        },
+      },{id: "post-interaction-picture",
         
           title: "Interaction picture",
         
@@ -41,9 +52,9 @@ ninja.data = [{
             window.location.href = "/blog/2022/interaction-picture/";
           
         },
-      },{id: "post-entry-wise-vector-and-matrix-derivatives",
+      },{id: "post-operator-functions-entry-wise-vector-and-matrix-derivatives",
         
-          title: "Entry-wise vector and matrix derivatives",
+          title: "Operator functions: Entry-wise vector and matrix derivatives",
         
         description: "Uncovering ambiguous notation involving vector and matrix derivatives",
         section: "Posts",
@@ -52,9 +63,9 @@ ninja.data = [{
             window.location.href = "/blog/2021/entrywise-matrix-derivative/";
           
         },
-      },{id: "post-what-is-a-matrix-exponential-operator-functions",
+      },{id: "post-operator-functions-what-is-a-matrix-exponential",
         
-          title: "What is a matrix exponential? / Operator functions",
+          title: "Operator functions: What is a matrix exponential?",
         
         description: "A brief introduction to operator functions as used in quantum theory or",
         section: "Posts",
