@@ -39,6 +39,12 @@ window.MathJax = {
       ket: ["\\left| #1 \\right\\rangle", 1],
       bra: ["\\left\\langle #1 \\right|", 1],
       braket: ["\\left\\langle #1 \\,\\middle|\\, #2 \\right\\rangle", 2],
+
+      // avg helper
+	avg: ["\\left\\langle #1 \\right\\rangle", 1],
+
+	// adding rowvec functionality
+	rowvec: ["\\text{---}\\; #1 \\;\\text{---}", 1],
     },
   },
   options: {
