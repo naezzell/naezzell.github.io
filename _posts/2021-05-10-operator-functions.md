@@ -1,9 +1,9 @@
 ---
 layout: post
-title: What is a matrix exponential? / Operator functions
+title: "Operator functions: What is a matrix exponential?"
 date: 2021-05-10
 description: A brief introduction to operator functions as used in quantum theory or 
-tags: basic-quantum abuse-of-notation operator-overloading
+tags: operator-functions basic-quantum abuse-of-notation operator-overloading
 categories: notation quantum math
 related_posts: true
 giscus_comments: true
