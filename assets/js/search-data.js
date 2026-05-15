@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-operator-functions-the-product-rule-on-inner-products-and-averages-in-quantum-mechanics",
+        },{id: "post-abuse-of-notation-operator-overloading",
+        
+          title: "Abuse of notation/ Operator overloading",
+        
+        description: "I define the meaning of abuse of notation which is very similar to operator overloading in programming. I then collect many examples of this phenomenon to avoid confusion and serve as a hopefully helpful cheat sheet.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/abuse-of-notation/";
+          
+        },
+      },{id: "post-operator-functions-the-product-rule-on-inner-products-and-averages-in-quantum-mechanics",
         
           title: "Operator functions: The product rule on inner products and averages in quantum mechanics...",
         
@@ -52,15 +63,15 @@ ninja.data = [{
             window.location.href = "/blog/2022/interaction-picture/";
           
         },
-      },{id: "post-operator-functions-entry-wise-vector-and-matrix-derivatives",
+      },{id: "post-operator-functions-abuse-of-notation-matrix-gradient",
         
-          title: "Operator functions: Entry-wise vector and matrix derivatives",
+          title: "Operator functions/abuse of notation: Matrix gradient",
         
-        description: "Uncovering ambiguous notation involving vector and matrix derivatives",
+        description: "Uncovering ambiguous notation involving vector and matrix derivatives; a generalization of the gradient",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2021/entrywise-matrix-derivative/";
+            window.location.href = "/blog/2021/matrix-gradient/";
           
         },
       },{id: "post-operator-functions-what-is-a-matrix-exponential",
