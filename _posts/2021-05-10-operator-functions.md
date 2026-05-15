@@ -187,9 +187,9 @@ $$
 \frac{d}{dt} \ket{\psi(t)} = \left(\frac{d}{dt} \psi_0(t), \frac{d}{dt} \psi_1(t), \ldots, \frac{d}{dt} \psi_{d-1}(t)\right)^T. 
 $$
 
-which is actually an entrywise function as we encountered above. Yet, since a vector can be viewed as a diagonal matrix whose entries are its eigenvalues, then it just as well can be viewed as a spectral function in this case, making the two notions self-consistent! This hidden feature is both the power of abuse of notation and partially why overloading notation can be so confusing :P.
+which is actually an <a href="/blog/2026/abuse-of-notation/" target="_blank">entrywise function</a> as we encountered above. Yet, since a vector can be viewed as a diagonal matrix whose entries are its eigenvalues, then it just as well can be viewed as a spectral function in this case, making the two notions self-consistent! This hidden feature is both the power of abuse of notation and partially why overloading notation can be so confusing :P.
 
-As a word of caution, a third type of derivative with similar notation also is used as discussed <a href="/blog/2021/entrywise-matrix-derivative/" target="_blank">here</a>, so stay vigilent! Hopefully, knowledge of these different notions will help you not get caught up in notation. 
+As a word of caution, a third type of derivative with similar notation also is used as discussed <a href="/blog/2021/matrix-gradient/" target="_blank">here</a>, so stay vigilent! Hopefully, knowledge of these different notions will help you not get caught up in notation. 
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Operator functions: Entry-wise vector and matrix derivatives"
+title: "Operator functions/abuse of notation: Matrix gradient"
 date: 2021-08-30
-description: Uncovering ambiguous notation involving vector and matrix derivatives
+description: Uncovering ambiguous notation involving vector and matrix derivatives; a generalization of the gradient
 tags: operator-functions abuse-of-notation operator-overloading calculus linear-algebra
 categories: notation math 
 related_posts: true
@@ -25,11 +25,11 @@ We were then asked to compute
 which many people in the course found confusing notation since, at the end of the day,
 > derivatives always act on scalar functions. 
 
-The confusion is merely notational, as we shall see. In fact, this is a great example of the concepts of overloading notation and abuse of notation (hence the tags).
+The confusion is merely from notation, as we shall see. In fact, this is a great example of the concepts of overloading notation and abuse of notation (hence the tags). In brief, these derivatives refer to the normal [[gradient](https://en.wikipedia.org/wiki/Gradient)] and its matrix generalization.
 
 ---
 
-## Vector derivative (gradient, entry-wise)
+## Vector derivative/gradient
 
 Since $f$ depends on the scalar variables $x_1, x_2, \ldots, x_n$, the most natural thing to do is to take all first partial derivatives:
 
@@ -55,19 +55,32 @@ A convenient way to store these derivatives is in a vector, and that is exactly 
 \frac{\partial f(\boldsymbol{x})}{\partial x_n}
 \right)^T,
 \end{equation}
-where $\equiv$ is notation meaning ``defines" which is defining the notation for the vector derivative in this case. In fact, this is just the familiar [[gradient](https://en.wikipedia.org/wiki/Gradient)] from multivariable calculus disguised by overloaded notation/an *abuse of notation*. Oh, and  the tranpose is just to make this row vector a column vector---a minor detail for keeping track of dimensions properly.
+where $\equiv$ is notation meaning ``defines" which is defining the notation for the vector derivative in this case. In fact, this is just the familiar [[gradient](https://en.wikipedia.org/wiki/Gradient)] from multivariable calculus disguised by overloaded notation/an *abuse of notation*. That is, we could have written things as
+
+$$
+\begin{equation}
+\nabla_{\vec{x}} f(\vec{x}) = \left(\frac{\partial f(\boldsymbol{x})}{\partial x_1},
+\frac{\partial f(\boldsymbol{x})}{\partial x_2},
+\ldots,
+\frac{\partial f(\boldsymbol{x})}{\partial x_n}
+\right)^T
+\end{equation}
+$$
+
+to be more clear. But it wasn't my class---oh well. Oh, and  the tranpose is just to make this row vector a column vector---a minor detail for keeping track of dimensions properly.
 
 Thus your initial intuition that might have said “you can’t take a derivative with respect to a vector” is correct. The notation here simply instructs you to take all scalar derivatives and stack them into a vector, aka the gradient. 
 
 ---
 
-## Matrix derivative (entry-wise)
+## Matrix derivative/gradient
 
 In exact analogy,
 
 $$
+\begin{equation}
 \frac{\partial f}{\partial A}
-=
+\equiv \nabla_A f \equiv
 \left(
 \begin{array}{cccc}
 \frac{\partial f}{\partial A_{11}} &
@@ -81,6 +94,7 @@ $$
 \frac{\partial f}{\partial A_{nn}}
 \end{array}
 \right).
+\end{equation}
 $$
 
 
@@ -129,6 +143,4 @@ $$
 $$
 
 With this (and the analogous calculation for $\frac{\partial f}{\partial x_2}$), we have computed $\partial f / \partial \boldsymbol{x}$ for this $2 \times 2$ example. A similar exercise yields $\partial f / \partial A$. By writing out $f(\boldsymbol{x})$ for general $n$ or pattern matching by direct computation on the $2 \times 2, 3 \times 3, \ldots, n \times n$ answers, we can thus compute $\partial f / \partial \boldsymbol{x}$ and $\partial f / \partial A$ for general $n$, which we leave as an exercise given its origin. 
-
-
 

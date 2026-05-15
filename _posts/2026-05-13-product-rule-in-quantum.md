@@ -16,7 +16,7 @@ In the study of perturbation theory or quantum phase transitions, it is routine 
 \dv{}{\lambda} \avg{\psi(\lambda) | H(\lambda) | \phi(\lambda)} = \avg{\psi'(\lambda) | H(\lambda) | \phi(\lambda)} + \avg{\psi(\lambda) | H'(\lambda) | \phi(\lambda)} + \avg{\psi(\lambda) | H(\lambda) | \phi'(\lambda)},
 \end{equation}
 
-where we are using the short-hand $\ket{\psi'(\lambda)} = \partial_\lambda \ket{\psi(\lambda}$ for the <a href="/blog/2021/entrywise-matrix-derivative/" target="_blank">entry wise</a> matrix derivative. Though this result is farily straightforward to believe and derive if you believe the product rule, I have never seen an explicit justification which I hope to change with this post.
+where we are using the short-hand $\ket{\psi'(\lambda)} = \partial_\lambda \ket{\psi(\lambda}$ for the <a href="/blog/2026/abuse-of-notation/" target="_blank">entrywise/broadcasted derivative</a> matrix derivative. Though this result is fairly straightforward to believe and derive if you believe the product rule, I have never seen an explicit justification which I hope to change with this post.
 
 ---
 
