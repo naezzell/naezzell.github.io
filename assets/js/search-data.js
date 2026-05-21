@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-abuse-of-notation-operator-overloading",
+        },{id: "post-parallel-transport-gauge-a-good-choice-of-phase-for-quantum-states",
+        
+          title: "Parallel transport gauge: A good choice of phase for quantum states",
+        
+        description: "A brief discussion of a convenient choice for the phase in a quantum state that depends on a parameter, i.e., the parallel transport gauge",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/parallel-transport-gauge/";
+          
+        },
+      },{id: "post-abuse-of-notation-operator-overloading",
         
           title: "Abuse of notation/ Operator overloading",
         
