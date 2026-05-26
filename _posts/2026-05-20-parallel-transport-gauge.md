@@ -7,9 +7,17 @@ tags: quantum
 categories: quantum math
 related_posts: true
 giscus_comments: true
----
+--- 
 
-An elementary fact in quantum theory is that "quantum states are rays in Hilbert space." In other words, $\ket{\psi}$ and $e^{i \theta} \ket{\psi}$ are the same state with respect to any underlying physics, and the phase $e^{i \theta}$ is thus a gauge degree of freedom (see [[here](https://en.wikipedia.org/wiki/Gauge_theory#Example:_electrodynamics)] for a broader of context on this meaning of gauge). Yet, in many contexts, we are interested not in a single state but a family of quantum states parameterized by a continuous input, i.e., $\ket{\psi(\lambda)}$ for $\lambda \in \mathds{R}$. As an exmaple, this state might be the ground-state of a system as the magnetic field strength is changed, so this setting is common in the study of quantum phase transitions. Regardless, once we care about a family of states, choosing the phase gets much more interesting, and often, the best choice is the so-called parallel transport gauge as defined in Eq. 2.6 of [[this paper](https://arxiv.org/pdf/1804.02095)]. The definition buried in this paper is a bit hard to follow for just a pure state, so we shall articulate it explicitely here.
+An elementary fact in quantum theory is that "quantum states are rays in Hilbert space." In other words, $\ket{\psi}$ and $e^{i \theta} \ket{\psi}$ are the same state with respect to any underlying physics, and the phase $e^{i \theta}$ is thus a gauge degree of freedom (see [here](https://en.wikipedia.org/wiki/Gauge_theory#Example:_electrodynamics) for a broader of context on this meaning of gauge). Yet, in many contexts, we are interested not in a single state but a family of quantum states parameterized by a continuous input, i.e., $\ket{\psi(\lambda)}$ for $\lambda \in \mathds{R}$. As an exmaple, this state might be the ground-state of a system as the magnetic field strength is changed, so this setting is common in the study of quantum phase transitions or in [perturbation theory](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/a0889c5ca8a479c3e56c544d646fb770_MIT8_06S18ch1.pdf).
+
+Regardless, once we care about a family of states, choosing the phase gets much more interesting, and often, the best choice is the so-called parallel transport gauge as defined in Eq. 2.6 of [this paper](https://arxiv.org/pdf/1804.02095). The definition buried in this paper is a bit hard to follow for just this point. Generally, the idea is that, given a state $\ket{\phi(\lambda)}$, we can always choose a phase (for each $\lambda$) such that
+
+$$
+\avg{\phi(\lambda) | \phi'(\lambda)} = 0.
+$$
+
+This is commonly utilized in perturbation theory derivations, but the proof is typically given abstractly and for all higher order derivatives at the same time (see [Eq. 1.1.14 here](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/a0889c5ca8a479c3e56c544d646fb770_MIT8_06S18ch1.pdf)). In this article, we derive an explicit choice of phase where this condition is met, as it will later help us understand ideas like the [Berry phase](https://en.wikipedia.org/wiki/Geometric_phase). 
 
 # Notation and preliminaries
 
@@ -150,5 +158,11 @@ $$
 
 The parallel transport gauge is useful in
 
-1. Derivations in perturbation theory (will link to post on this when live)
+1. Derivations in perturbation theory as in [here](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/a0889c5ca8a479c3e56c544d646fb770_MIT8_06S18ch1.pdf)
 2. (Optimal) Simulations of quantum dynamics, <a href="https://arxiv.org/pdf/1804.02095" target="_blank">https://arxiv.org/pdf/1804.02095</a>
+
+# External links referenced throughout
+1. On quantum perturbation theory: [https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/a0889c5ca8a479c3e56c544d646fb770_MIT8_06S18ch1.pdf](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/a0889c5ca8a479c3e56c544d646fb770_MIT8_06S18ch1.pdf)
+2. On Berry phase: [https://en.wikipedia.org/wiki/Geometric_phas](https://en.wikipedia.org/wiki/Geometric_phas)
+3. Fundmental theorem of calculus: [https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus)
+4. Use of this phase in optimal simulations: [https://arxiv.org/pdf/1804.02095](https://arxiv.org/pdf/1804.02095)
