@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-parallel-transport-gauge-a-good-choice-of-phase-for-quantum-states",
+        },{id: "post-quantum-perturbation-theory-i-energy-corrections",
+        
+          title: "Quantum perturbation theory I: Energy corrections",
+        
+        description: "An introduction to perturbation theory derivations in quantum physics; deriving first two derivatives of the ground-state energy; a brief relation to quantum phase transition theory and energy susceptibility is made",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/quantum-perturbations-energy/";
+          
+        },
+      },{id: "post-parallel-transport-gauge-a-good-choice-of-phase-for-quantum-states",
         
           title: "Parallel transport gauge: A good choice of phase for quantum states",
         
