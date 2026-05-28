@@ -158,7 +158,7 @@ $$
 
 The parallel transport gauge is useful in
 
-1. Derivations in perturbation theory as in [here](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/a0889c5ca8a479c3e56c544d646fb770_MIT8_06S18ch1.pdf)
+1. Derivations in perturbation theory as in [these standard MIT Open Course Ware notes](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/a0889c5ca8a479c3e56c544d646fb770_MIT8_06S18ch1.pdf) or <a href="/blog/2026/quantum-perturbations-energy/" target="_blank">my own blog on the topic</a>
 2. (Optimal) Simulations of quantum dynamics, <a href="https://arxiv.org/pdf/1804.02095" target="_blank">https://arxiv.org/pdf/1804.02095</a>
 
 # External links referenced throughout
