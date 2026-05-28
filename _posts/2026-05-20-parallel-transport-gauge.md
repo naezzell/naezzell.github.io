@@ -147,7 +147,6 @@ is sufficient. By the <a href="https://en.wikipedia.org/wiki/Fundamental_theorem
 $$
 \begin{align}
 	\int_{\lambda_0}^{\lambda} \theta'(s)\mathrm{d}s &= i \int_{\lambda_0}^{\lambda} \avg{\psi(s) | \psi'(s)} \mathrm{d} s \\
-	%-------
 	\theta(\lambda) &= \theta(\lambda_0) + i \int_{\lambda_0}^{\lambda} \avg{\psi(s) | \psi'(s)} \mathrm{d} s.
 \end{align}
 $$

@@ -54,7 +54,6 @@ In the next two sections, we derive the following results for the first and seco
 $$
 \begin{align}
 	E_0'(\lambda) &= \avg{E_0(\lambda) | H_1 | E_0(\lambda)} \\
-	%---------------
 	E_0''(\lambda) &= -2 \sum_{k > 0} \frac{|\avg{E_k(\lambda) | H_1 | E_0(\lambda)}|^2}{E_k(\lambda) - E_0(\lambda)},
 
 \end{align}
