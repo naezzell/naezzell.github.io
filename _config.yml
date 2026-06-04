@@ -92,7 +92,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: missing-piece # blog_name will be displayed in your blog page
-blog_description: pedagogic tutorials, comments on my academic journey, coffee ratings, etc...
+blog_description: Learning quantum is hard---whether that be quantum mechanics, quantum computing, or quantum information. In my experience, it is often also fraught with confusing, sometimes even conflicting notation and the discouraging use of "follows trivially." My hope is that my blog can serve as the "missing piece" you need to understand things that confuse you. For example, that might mental block might be a hitherto unexplained <a href="/blog/2026/abuse-of-notation/" target="_blank">abuse of notation</a> (perhaps either what abuse of notation means or a particularly confusing one that clashes with your expectation) or the first time you have seen <a href="/blog/2021/operator-functions/" target="_blank">a matrix exponentiated</a> where the explanation is just "just do a trivial Taylor expansion." For now, I am focused on fundamentals, but eventually, I intend to write about cool current research in quantum computation and information as well.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
