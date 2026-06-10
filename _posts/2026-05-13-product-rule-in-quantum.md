@@ -3,8 +3,8 @@ layout: post
 title: "Operator functions: The product rule on inner products and averages in quantum mechanics"
 date: 2026-05-13
 description: A brief exposition on product rule of inner-products and averages in quantum mechanics
-tags: operator-functions basic-quantum
-categories: quantum math
+tags: quantum-101 notation operator-function abuse-of-notation operator-overloading calculus linear-algebra
+categories: technical tutorial quantum math
 related_posts: true
 giscus_comments: true
 ---

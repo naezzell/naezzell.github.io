@@ -29,22 +29,29 @@ pagination:
   </div>
   {% endif %}
 
-{% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
+{% assign tag_counts = "" | split: "" %}
+{% for tag in site.tags %}
+  {% assign padded = tag[1].size | prepend: "000" | slice: -3, 3 %}
+  {% assign entry = padded | append: ":::" | append: tag[0] %}
+  {% assign tag_counts = tag_counts | push: entry %}
+{% endfor %}
+{% assign tag_counts = tag_counts | sort | reverse %}
+{% assign top_tags = tag_counts | slice: 0, 6 %}
 
+{% assign cat_counts = "" | split: "" %}
+{% for cat in site.categories %}
+  {% assign padded = cat[1].size | prepend: "000" | slice: -3, 3 %}
+  {% assign entry = padded | append: ":::" | append: cat[0] %}
+  {% assign cat_counts = cat_counts | push: entry %}
+{% endfor %}
+{% assign cat_counts = cat_counts | sort | reverse %}
+{% assign top_cats = cat_counts | slice: 0, 6 %}
+
+{% if top_tags.size > 0 or top_cats.size > 0 %}
   <div class="tag-category-list">
     <ul class="p-0 m-0">
-      {% for tag in site.display_tags %}
-        <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
-      {% endfor %}
-      {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>&bull;</p>
-      {% endif %}
-      {% for category in site.display_categories %}
+      {% for entry in top_cats %}
+        {% assign category = entry | split: ":::" | last %}
         <li>
           <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
         </li>
@@ -52,9 +59,21 @@ pagination:
           <p>&bull;</p>
         {% endunless %}
       {% endfor %}
+      {% if top_cats.size > 0 and top_tags.size > 0 %}
+        <p>&bull;</p>
+      {% endif %}
+      {% for entry in top_tags %}
+        {% assign tag = entry | split: ":::" | last %}
+        <li>
+          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+        </li>
+        {% unless forloop.last %}
+          <p>&bull;</p>
+        {% endunless %}
+      {% endfor %}
     </ul>
   </div>
-  {% endif %}
+{% endif %}
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}

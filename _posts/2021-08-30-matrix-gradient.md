@@ -3,8 +3,8 @@ layout: post
 title: "Operator functions/abuse of notation: Matrix gradient"
 date: 2021-08-30
 description: Uncovering ambiguous notation involving vector and matrix derivatives; a generalization of the gradient
-tags: operator-functions abuse-of-notation operator-overloading calculus linear-algebra
-categories: notation math 
+tags: notation operator-functions abuse-of-notation operator-overloading calculus linear-algebra
+categories: technical tutorial math
 related_posts: true
 giscus_comments: true
 ---

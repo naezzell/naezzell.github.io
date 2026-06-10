@@ -4,7 +4,7 @@ title: "Abuse of notation/ Operator overloading"
 date: 2026-05-14
 description: I define the meaning of abuse of notation which is very similar to operator overloading in programming. I then collect many examples of this phenomenon to avoid confusion and serve as a hopefully helpful cheat sheet. 
 tags: abuse-of-notation operator-overloading compendium
-categories: notation math 
+categories: technical tutorial quantum math
 related_posts: true
 giscus_comments: true
 ---

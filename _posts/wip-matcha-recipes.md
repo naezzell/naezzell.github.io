@@ -3,8 +3,8 @@ layout: post
 title: "Recipes: Matcha, Hojicha, and more"
 date: 2026-05-25
 description: A compendium of matcha recipes and comments
-tags: matcha barista
-categories: drink recipe
+tags: matcha hojicha
+categories: personal barista
 related_posts: true
 giscus_comments: true
 ---

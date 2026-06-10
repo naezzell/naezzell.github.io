@@ -3,8 +3,8 @@ layout: post
 title: "Quantum perturbation theory I: Energy corrections"
 date: 2026-05-27
 description: An introduction to perturbation theory derivations in quantum physics; deriving first two derivatives of the ground-state energy; a brief relation to quantum phase transition theory and energy susceptibility is made
-tags: quantum
-categories: quantum math
+tags: quantum-201 quantum-phase-transitions
+categories: technical tutorial quantum
 related_posts: true
 giscus_comments: true
 ---

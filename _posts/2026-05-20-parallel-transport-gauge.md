@@ -3,8 +3,8 @@ layout: post
 title: "Parallel transport gauge: A good choice of phase for quantum states"
 date: 2026-05-20
 description: A brief discussion of a convenient choice for the phase in a quantum state that depends on a parameter, i.e., the parallel transport gauge
-tags: quantum
-categories: quantum math
+tags: quantum-201 quantum-side-quest quantum-phase-transitions
+categories: technical tutorial quantum
 related_posts: true
 giscus_comments: true
 --- 
