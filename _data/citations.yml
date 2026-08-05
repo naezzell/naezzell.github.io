@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-08-05'
 papers:
   pSCN5GsAAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -26,11 +26,11 @@ papers:
     title: Detecting quantum and classical phase transitions via unsupervised machine learning of the Fisher information metric
     year: '2024'
   pSCN5GsAAAAJ:Tyk-4Ss8FVUC:
-    citations: 155
+    citations: 157
     title: Out-of-distribution generalization for learning quantum dynamics
-    year: '2022'
+    year: '2023'
   pSCN5GsAAAAJ:W7OEmFMy1HYC:
-    citations: 272
+    citations: 271
     title: 'Dynamical decoupling for superconducting qubits: A performance survey'
     year: '2023'
   pSCN5GsAAAAJ:Y0pCki6q_DkC:
@@ -38,12 +38,12 @@ papers:
     title: Dynamical simulation via quantum machine learning with provable generalization
     year: '2024'
   pSCN5GsAAAAJ:YsMSGLbcyi4C:
-    citations: 36
+    citations: 35
     title: Quantum mixed state compiling
     year: '2023'
   pSCN5GsAAAAJ:d1gkVwhDpl0C:
     citations: 1
-    title: Improving the Performance of Simulations of the Intrinsically Disordered N-Terminal Domain from P53
+    title: Improving the performance of simulations of the intrinsically disordered n-terminal domain from p53
     year: '2017'
   pSCN5GsAAAAJ:roLk4NBRz8UC:
     citations: 2
