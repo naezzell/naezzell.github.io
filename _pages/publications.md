@@ -16,14 +16,14 @@ I believe papers should be as reproducible and self-contained as possible. Corre
 - *Advanced measurement techniques in quantum Monte Carlo: The permutation matrix representation approach*    
   **N. Ezzell**, I. Hen    
   *Comput. Phys. Commun.* (2026)    
-  [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0010465526000019?via%3Dihub)] [[arXiv](https://arxiv.org/abs/2504.07295)] [[Zenodo](https://zenodo.org/records/17786518)] [[GitHub](https://github.com/naezzell/advmeaPMRQMC)] [[LinkedIn](https://www.linkedin.com/posts/nic96_advanced-measurement-techniques-in-quantum-share-7420276559539884032-lRS5?utm_source=share&utm_medium=member_desktop&rcm=ACoAACRCQboBE0jtjAHsyDqBOvhgI5cWMOSGuPc)]      
+  [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0010465526000019?via%3Dihub)] [[arXiv](https://arxiv.org/abs/2504.07295)] [[Zenodo](https://zenodo.org/records/17786518)] [[GitHub](https://github.com/naezzell/advmeaPMRQMC)] [[LinkedIn](https://www.linkedin.com/posts/nic96_advanced-measurement-techniques-in-quantum-share-7420276559539884032-lRS5?utm_source=share&utm_medium=member_desktop&rcm=ACoAACRCQboBE0jtjAHsyDqBOvhgI5cWMOSGuPc)] [[USC Physics Colloquium 2026](/assets/pdf/ezzell_usc_physics_colloquium_2026.pdf)]      
 <span style="color: var(--global-theme-color);">Takeaway:</span> You can use quantum Monte Carlo to estimate the thermal expectation value of any operator. Our justification relies on an improved group-theoretic definition of the permutation matrix representation we propose.
    
 
 - *A universal black-box quantum Monte Carlo approach to quantum phase transitions*    
   **N. Ezzell**, L. Barash, I. Hen    
   *npj Comput. Mater.* (2025)    
-  [[Paper](https://www.nature.com/articles/s41524-025-01891-0)] [[arXiv](https://arxiv.org/abs/2408.03924)] [[Zenodo](https://zenodo.org/records/17786518)] [[GitHub](https://github.com/naezzell/advmeaPMRQMC)] [[LinkedIn](https://www.linkedin.com/posts/nic96_a-universal-black-box-quantum-monte-carlo-share-7417024217218715648-y3yK?utm_source=share&utm_medium=member_desktop&rcm=ACoAACRCQboBE0jtjAHsyDqBOvhgI5cWMOSGuPc)]    
+  [[Paper](https://www.nature.com/articles/s41524-025-01891-0)] [[arXiv](https://arxiv.org/abs/2408.03924)] [[Zenodo](https://zenodo.org/records/17786518)] [[GitHub](https://github.com/naezzell/advmeaPMRQMC)] [[LinkedIn](https://www.linkedin.com/posts/nic96_a-universal-black-box-quantum-monte-carlo-share-7417024217218715648-y3yK?utm_source=share&utm_medium=member_desktop&rcm=ACoAACRCQboBE0jtjAHsyDqBOvhgI5cWMOSGuPc)] [[USC Physics Colloquium 2026](/assets/pdf/ezzell_usc_physics_colloquium_2026.pdf)]    
 <span style="color: var(--global-theme-color);">Takeaway:</span> You can detect phase boundaries in quantum systems without system-specific knowledge using our black box approach. In our demonstrations, it even worked on a toy random model with 100 spins, so try out our open source code on your exotic models!
 
 - *Dynamical simulation via quantum machine learning with provable generalization*  
